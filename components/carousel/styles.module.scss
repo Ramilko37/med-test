@@ -1,0 +1,313 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 739px;
+  z-index: 100;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+
+  color: #223867;
+}
+
+.wheel {
+  background-image: url("../../public/images/adult_circle.png");
+  width: 315.49px;
+  height: 315.67px;
+  borderRadius: 50px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 130px;
+  height: 131px;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  position: absolute;
+  background-image: url("../../public/images/image_01.png");
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+
+.card-marker {
+  position: relative;
+  cursor: pointer;
+}
+
+.card-marker:hover::before {
+  position: absolute;
+  top: calc(-70px - 11px);
+  left: 27px;
+  content: "";
+  height: 70px;
+  padding: 14px 16px;
+  background-color: #fff;
+  box-shadow: 0px 8px 32px rgba(34, 59, 124, 0.12);
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 130%;
+  z-index: 99;
+}
+.card-marker:hover::after {
+  position: absolute;
+  top: -15px;
+  left: 5px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #ffffff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  box-shadow: 0px 8px 32px rgba(34, 59, 124, 0.12);
+}
+
+
+
+.buttonOne {
+  width: 130px;
+  height: 131px;
+  position: absolute;
+  top: 50px;
+  left: 650px;
+  right: 250px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  background-image: url("../../public/images/image_01.png");
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonOne:hover {
+   cursor: pointer;
+ }
+
+.buttonTwo {
+  width: 150px;
+  height: 135px;
+  position: absolute;
+  top: 220px;
+  left: 720px;
+  right: 250px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  background-image: url("../../public/images/img_head.png");
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonTwo:hover {
+  cursor: pointer;
+}
+
+.buttonThree {
+  width: 130px;
+  height: 131px;
+  position: absolute;
+  top: 400px;
+  left: 680px;
+  right: 250px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-image: url("../../public/images/image_lungs.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonThree:hover {
+   cursor: pointer;
+ }
+
+.buttonFour {
+  width: 130px;
+  height: 131px;
+  position: absolute;
+  top: 480px;
+  left: 480px;
+  right: 250px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  background-image: url("../../public/images/img_legs.png");
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonFour:hover {
+   cursor: pointer;
+ }
+
+.buttonFive {
+  width: 130px;
+  height: 131px;
+  position: absolute;
+  top: 380px;
+  left: 280px;
+  right: 250px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  background-image: url("../../public/images/img_bone.png");
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonFive:hover {
+  cursor: pointer;
+}
+
+.buttonSix {
+  width: 150px;
+  height: 131px;
+  position: absolute;
+  top: 220px;
+  left: 210px;
+  right: 250px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  background-image: url("../../public/images/img_skelet.png");
+  background-color: transparent;
+  background-position: center;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonSix:hover {
+  cursor: pointer;
+}
+
+.buttonSeven {
+  width: 140px;
+  height: 137px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  right: 250px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-size: cover;
+  background-image: url("../../public/images/img_wonam.png");
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonSeven:hover {
+   cursor: url("../../public/images/pointer.png"), auto;
+ }
+
+.buttonEight {
+  width: 130px;
+  height: 131px;
+  position: absolute;
+  top: 0px;
+  left: 480px;
+  right: 200px;
+  bottom: 300px;
+  transform: translate(50%, 50%);
+  background-image: url("../../public/images/img_spine.png");
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 200;
+}
+.buttonEight:hover {
+  cursor: pointer;
+  }
+
+.textPositionOne  {
+  position: absolute;
+  z-index: 500;
+  top: 120px;
+  left: 880px;
+  width: 242px;
+}
+
+.textPositionTwo  {
+  position: absolute;
+  z-index: 500;
+  top: 320px;
+  left: 970px;
+  width: 187px;
+}
+
+.textPositionThree  {
+  position: absolute;
+  z-index: 500;
+  top: 480px;
+  left: 900px;
+  width: 187px;
+}
+
+.textPositionFour  {
+  position: absolute;
+  z-index: 500;
+  top: 670px;
+  left: 560px;
+  width: 187px;
+}
+
+.textPositionFive  {
+  position: absolute;
+  z-index: 500;
+  top: 490px;
+  left: 220px;
+  width: 162px;
+}
+
+.textPositionSix  {
+  position: absolute;
+  z-index: 500;
+  top: 330px;
+  left: 160px;
+}
+
+.textPositionSeven  {
+  position: absolute;
+  z-index: 500;
+  top: 170px;
+  left: 240px;
+}
+
+.textPositionEight  {
+  position: absolute;
+  z-index: 500;
+  top: 25px;
+  left: 580px;
+}
+
+.sectionParagraph {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2A477D;
+  margin-bottom: 61px;
+  margin-left: 45px;
+}
+
+.sectionSpan {
+  font-size: 14px;
+  color: #028CA6;
+}

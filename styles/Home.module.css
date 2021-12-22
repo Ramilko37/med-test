@@ -1,5 +1,9 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 329px 0 327px;
+  background: #F4FBFC;
 }
 
 .main {
@@ -10,7 +14,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 247, 252, 0.583333) 25.87%, #CAF2FA 100%);
 }
+
+
 
 .footer {
   display: flex;

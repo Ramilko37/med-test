@@ -1,0 +1,55 @@
+.flexWrapper {
+    display: flex;
+    margin: 43px 36px 89px;
+}
+
+.columnWrapper {
+    width: 578px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 36px;
+}
+.columnWrapper:last-of-type {
+    margin-right: 0;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #028CA6;
+    margin: 0 0 23px 0;
+}
+
+.image {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    background-image: url("../../public/images/adult.png");
+    background-size: cover;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+    color: #223867;
+}
+
+.paragraphContainer {
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid #068CA6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+    border-radius: 10px;
+    padding: 15px 21px;
+    margin-bottom: 31px;
+}
+
+.paragraphContainer:last-of-type {
+    margin-bottom: 0;
+}
